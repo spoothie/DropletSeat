@@ -36,15 +36,15 @@
 
 	<!-- Source code access -->
 	<scm>
-		<developerConnection>scm:git:git@github.com:Droplets/DropletName.git</developerConnection>
-		<connection>scm:git:git://github.com/Droplets/DropletName.git</connection>
-		<url>https://github.com/Droplets/DropletName</url>
+		<developerConnection>scm:git:git@github.com:Droplets/DropletExample.git</developerConnection>
+		<connection>scm:git:git://github.com/Droplets/DropletExample.git</connection>
+		<url>https://github.com/Droplets/DropletExample</url>
 	</scm>
 
 	<!-- Build server -->
 	<ciManagement>
 		<system>jenkins</system>
-		<url>http://build.spout.org/job/DropletName</url>
+		<url>http://build.spout.org/job/DropletExample</url>
 	</ciManagement>
 
 	<!-- Issue tracker -->
