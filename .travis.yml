@@ -1,0 +1,13 @@
+language: java
+
+jdk:
+  - openjdk6
+
+install: mvn clean -DbuildNumber=${TRAVIS_BUILD_NUMBER}
+
+notifications:
+  irc:
+    channels:
+      - "irc.esper.net#droplet"
+    on_success: always
+    on_failure: always
