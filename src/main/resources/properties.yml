@@ -1,0 +1,10 @@
+name: ${project.name}
+version: ${releaseVersion} b${buildNumber}
+description: ${project.description}
+website: ${project.url}
+
+author: ${project.organization.name}
+
+main: ${mainClass}
+platform: SERVER
+reload: true
