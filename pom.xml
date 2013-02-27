@@ -5,8 +5,8 @@
 	<!-- Project information -->
 	<name>DropletExample</name>
 	<groupId>org.spout.droplet</groupId>
-	<artifactId>dropletexample</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>example</artifactId>
+	<version>0.0.1</version>
 	<url>http://www.spout.org</url>
 	<inceptionYear>2013</inceptionYear>
 	<description>Example "Droplet" plugin for the Spout platform to demonstrate the usage of PLACEHOLDER.</description>
@@ -14,9 +14,10 @@
 	<!-- Build properties -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<mainClass>${project.groupId}.${project.artifactId}.example.${project.name}</mainClass>
+		<buildNumber>0</buildNumber><!-- DO NOT TOUCH! -->
+		<platform>SERVER</platform><!-- CLIENT/SERVER/BOTH -->
+		<reload>true</reload><!-- true/false -->
 		<spoutVersion>dev-SNAPSHOT</spoutVersion>
-		<buildNumber>custom</buildNumber>
 	</properties>
 
 	<!-- Organization information -->
@@ -36,9 +37,9 @@
 
 	<!-- Source code access -->
 	<scm>
-		<developerConnection>scm:git:git@github.com:Droplets/DropletExample.git</developerConnection>
-		<connection>scm:git:git://github.com/Droplets/DropletExample.git</connection>
-		<url>https://github.com/Droplets/DropletExample</url>
+		<developerConnection>scm:git:git@github.com:Droplet/DropletExample.git</developerConnection>
+		<connection>scm:git:git://github.com/Droplet/DropletExample.git</connection>
+		<url>https://github.com/Droplet/DropletExample</url>
 	</scm>
 
 	<!-- Build server -->
@@ -149,24 +150,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- Release version plugin -->
-			<plugin>
-				<groupId>com.sourcesense.maven</groupId>
-				<artifactId>maven-nosnapshot-plugin</artifactId>
-				<version>0.0.7</version>
-				<executions>
-					<execution>
-						<configuration>
-							<version>${project.version}</version>
-							<propertyName>releaseVersion</propertyName>
-						</configuration>
-						<phase>initialize</phase>
-						<goals>
-							<goal>strip</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
 			<!-- Source compiler plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -184,36 +167,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-
-		<!-- Plugin management -->
-		<pluginManagement>
-			<plugins>
-				<!-- Eclipse exclusions -->
-				<plugin>
-					<groupId>org.eclipse.m2e</groupId>
-					<artifactId>lifecycle-mapping</artifactId>
-					<version>1.0.0</version>
-					<configuration>
-						<lifecycleMappingMetadata>
-							<pluginExecutions>
-								<pluginExecution>
-									<pluginExecutionFilter>
-										<groupId>com.sourcesense.maven</groupId>
-										<artifactId>maven-nosnapshot-plugin</artifactId>
-										<versionRange>[0.0.7,)</versionRange>
-										<goals>
-											<goal>strip</goal>
-										</goals>
-									</pluginExecutionFilter>
-									<action>
-										<execute/>
-									</action>
-								</pluginExecution>
-							</pluginExecutions>
-						</lifecycleMappingMetadata>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
 	</build>
 </project>

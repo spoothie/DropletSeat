@@ -1,10 +1,9 @@
 name: ${project.name}
-version: ${releaseVersion} b${buildNumber}
+version: ${project.version}-${buildNumber}
 description: ${project.description}
 website: ${project.url}
-
 author: ${project.organization.name}
 
-main: ${mainClass}
-platform: SERVER
-reload: true
+main: ${project.groupId}.${project.artifactId}.${project.name}
+platform: ${platform}
+reload: ${reload}
