@@ -5,6 +5,6 @@ website: ${project.url}
 author: ${project.organization.name}
 
 main: ${project.groupId}.${project.artifactId}.${project.name}
-#depends: [Vanilla]
+#depends: [${depends}]
 platform: ${platform}
 reload: ${reload}

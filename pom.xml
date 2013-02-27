@@ -15,9 +15,11 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<buildNumber>0</buildNumber><!-- DO NOT TOUCH! -->
+		<depends>Vanilla</depends><!-- Comma separated. Uncomment in properties.yml if needed. -->
 		<platform>SERVER</platform><!-- CLIENT/SERVER/PROXY/ALL -->
 		<reload>true</reload><!-- true/false -->
 		<spoutVersion>dev-SNAPSHOT</spoutVersion>
+		<vanillaVersion>1.4.7-SNAPSHOT</vanillaVersion><!-- Only needed if you depend on Vanilla -->
 	</properties>
 
 	<!-- Organization information -->
@@ -81,6 +83,12 @@
 			<groupId>org.spout</groupId>
 			<artifactId>spoutapi</artifactId>
 			<version>${spoutVersion}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.spout</groupId>
+			<artifactId>vanilla</artifactId>
+			<version>${vanillaVersion}</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
