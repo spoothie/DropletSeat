@@ -9,13 +9,13 @@
 	<version>0.0.1</version>
 	<url>http://www.spout.org</url>
 	<inceptionYear>2013</inceptionYear>
-	<description>Example "Droplet" plugin for the Spout platform to demonstrate the usage of PLACEHOLDER.</description>
+	<description>PLACEHOLDER "Droplet" plugin for the Spout platform to demonstrate the usage of PLACEHOLDER.</description>
 
 	<!-- Build properties -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<buildNumber>0</buildNumber><!-- DO NOT TOUCH! -->
-		<platform>SERVER</platform><!-- CLIENT/SERVER/BOTH -->
+		<platform>SERVER</platform><!-- CLIENT/SERVER/PROXY/ALL -->
 		<reload>true</reload><!-- true/false -->
 		<spoutVersion>dev-SNAPSHOT</spoutVersion>
 	</properties>

@@ -1,6 +1,6 @@
 DropletExample
 ==============
-Example "Droplet" plugin for the Spout platform to demonstrate the usage of PLACEHOLDER.
+PLACEHOLDER "Droplet" plugin for the Spout platform to demonstrate the usage of PLACEHOLDER.
 
 ## What is Spout?
 Spout is an open source multi-threaded Java voxel-based game framework and platform that opens the doors for infinite possibilities and expansion at the fingertips of gamers and developers alike. Through the use of the Spout platform's API, developers can create "game" plugins, which use our client and server platform as a base. Players will be able to swap between games on-the-fly as they switch to a server running a different game plugin, or a set of game plugins.
@@ -9,7 +9,7 @@ Spout is an open source multi-threaded Java voxel-based game framework and platf
 [Homepage] | [Forums] | [Twitter] | [Facebook]
 
 ## Using the plugin
-Simply place the latest [compiled jar][Builds] in Spout's plugins folder and change the `config.yml` located under `plugins/DropletExample`.
+Simply place the latest [compiled jar][Builds] in the `plugins` folder and change the `config.yml` under the plugin's folder if needed.
 
 ## Contributing
 Like the project? Feel free to [donate] to help continue development!
@@ -32,7 +32,7 @@ If you are using Git, use this command to clone the project:
 Or download the [latest zip archive][Source Download].
 
 ## Compiling the source
-DropletExample uses Maven to handle its dependencies.
+This project uses Maven to handle its dependencies.
 
 * Install [Maven 2 or 3](http://maven.apache.org/download.html)  
 * Checkout this repo and run: `mvn clean package`
@@ -41,7 +41,7 @@ DropletExample uses Maven to handle its dependencies.
 [Homepage]: http://www.spout.org
 [Forums]: http://forums.spout.org
 [License]: http://cdn.spout.org/license/mit.txt
-[Source]: https://github.com/Droplets/DropletExample
+[Source]: https://github.com/Droplet/DropletExample
 [Source Download]: https://github.com/Droplet/DropletExample/archive/master.zip
 [Builds]: http://build.spout.org/job/DropletExample
 [Issues]: http://issues.spout.org/browse/DROPLET
