@@ -3,13 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<!-- Project information -->
-	<name>DropletExample</name>
+	<name>DropletSeat</name>
 	<groupId>org.spout.droplet</groupId>
-	<artifactId>example</artifactId>
+	<artifactId>seat</artifactId>
 	<version>0.0.1</version>
 	<url>http://www.spout.org</url>
 	<inceptionYear>2013</inceptionYear>
-	<description>PLACEHOLDER "Droplet" plugin for the Spout platform to demonstrate the usage of PLACEHOLDER.</description>
+	<description>Seating and chairs "Droplet" plugin for the Spout platform to demonstrate the usage of player events and metadata.</description>
 
 	<!-- Build properties -->
 	<properties>
@@ -39,15 +39,15 @@
 
 	<!-- Source code access -->
 	<scm>
-		<developerConnection>scm:git:git@github.com:Droplet/DropletExample.git</developerConnection>
-		<connection>scm:git:git://github.com/Droplet/DropletExample.git</connection>
-		<url>https://github.com/Droplet/DropletExample</url>
+		<developerConnection>scm:git:git@github.com:spoothie/DropletSeat.git</developerConnection>
+		<connection>scm:git:git://github.com/spoothie/DropletSeat.git</connection>
+		<url>https://github.com/spoothie/DropletSeat</url>
 	</scm>
 
 	<!-- Build server -->
 	<ciManagement>
 		<system>jenkins</system>
-		<url>http://build.spout.org/job/DropletExample</url>
+		<url>http://build.spout.org/job/DropletSeat</url>
 	</ciManagement>
 
 	<!-- Issue tracker -->

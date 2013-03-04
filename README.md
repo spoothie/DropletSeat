@@ -1,6 +1,6 @@
-DropletExample
+DropletSeat
 ==============
-PLACEHOLDER "Droplet" plugin for the Spout platform to demonstrate the usage of PLACEHOLDER.
+Seating and chairs "Droplet" plugin for the Spout platform to demonstrate the usage of player events and metadata.
 
 ## What is Spout?
 Spout is an open source multi-threaded Java voxel-based game framework and platform that opens the doors for infinite possibilities and expansion at the fingertips of gamers and developers alike. Through the use of the Spout platform's API, developers can create "game" plugins, which use our client and server platform as a base. Players will be able to swap between games on-the-fly as they switch to a server running a different game plugin, or a set of game plugins.
@@ -20,14 +20,14 @@ Are you a talented programmer looking to contribute some code? We'd love the hel
 * For help setting up the project, keep reading!
 
 ## The license
-DropletExample and all "Droplet" plugins for the Spout platform are licensed under the [MIT License][License].
+DropletSeat and all "Droplet" plugins for the Spout platform are licensed under the [MIT License][License].
 
 ## Getting the source
 The latest and greatest source can be found here on [GitHub][Source].
 
 If you are using Git, use this command to clone the project:
 
-    git clone git://github.com/Droplet/DropletExample.git
+    git clone git://github.com/Droplet/DropletSeat.git
 
 Or download the [latest zip archive][Source Download].
 
@@ -41,9 +41,9 @@ This project uses Maven to handle its dependencies.
 [Homepage]: http://www.spout.org
 [Forums]: http://forums.spout.org
 [License]: http://cdn.spout.org/license/mit.txt
-[Source]: https://github.com/Droplet/DropletExample
-[Source Download]: https://github.com/Droplet/DropletExample/archive/master.zip
-[Builds]: http://build.spout.org/job/DropletExample
+[Source]: https://github.com/Droplet/DropletSeat
+[Source Download]: https://github.com/Droplet/DropletSeat/archive/master.zip
+[Builds]: http://build.spout.org/job/DropletSeat
 [Issues]: http://issues.spout.org/browse/DROPLET
 [Twitter]: http://spout.in/twitter
 [Facebook]: http://spout.in/facebook
